@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\receptiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\receptiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\guestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\guestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\repositories\\guestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\repositories\\guestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\appsettings.json",
-              "RelativeDocumentMoniker": "API_16246\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\appsettings.json",
-              "RelativeToolTip": "API_16246\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-04T12:29:51.713Z",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API_16246\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API_16246\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:58:05.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Program.cs",
-              "RelativeDocumentMoniker": "API_16246\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Program.cs",
-              "RelativeToolTip": "API_16246\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "API_16246\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "API_16246\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:26:03.22Z",
+              "WhenOpened": "2024-12-04T19:57:21.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReceptionDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\ReceptionDbContext.cs",
-              "RelativeDocumentMoniker": "API_16246\\Models\\ReceptionDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\ReceptionDbContext.cs",
-              "RelativeToolTip": "API_16246\\Models\\ReceptionDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "API_16246\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "API_16246\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:23:00.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "API_16246\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Reservation.cs",
-              "RelativeToolTip": "API_16246\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:19:35.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "API_16246\\Models\\Room.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Room.cs",
-              "RelativeToolTip": "API_16246\\Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:18:49.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Guest.cs",
-              "RelativeDocumentMoniker": "API_16246\\Models\\Guest.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Guest.cs",
-              "RelativeToolTip": "API_16246\\Models\\Guest.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:18:13.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\User.cs",
-              "RelativeDocumentMoniker": "API_16246\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\User.cs",
-              "RelativeToolTip": "API_16246\\Models\\User.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:16:37.541Z",
+              "WhenOpened": "2024-12-04T19:54:23.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "API_16246\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "API_16246\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "API_16246\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "API_16246\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:30:37.088Z",
+              "WhenOpened": "2024-12-04T19:53:51.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "API_16246\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "API_16246\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:46:41.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GuestsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\GuestsController.cs",
+              "RelativeDocumentMoniker": "API_16246\\Controllers\\GuestsController.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\GuestsController.cs",
+              "RelativeToolTip": "API_16246\\Controllers\\GuestsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:46:13.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Program.cs",
+              "RelativeDocumentMoniker": "API_16246\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Program.cs",
+              "RelativeToolTip": "API_16246\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:45:49.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "API_16246\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "API_16246\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:56:53.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GuestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\GuestRepository.cs",
+              "RelativeDocumentMoniker": "API_16246\\Repositories\\GuestRepository.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Repositories\\GuestRepository.cs",
+              "RelativeToolTip": "API_16246\\Repositories\\GuestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:41:34.074Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,8 @@
-using API_16246.Models; // Update namespace if necessary
+using API_16246.Models;
+using API_16246.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using API_16246.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,33 @@ builder.Services.AddDbContext<ReceptionDbContext>(options =>
 
 // Optional: Add Swagger for API documentation
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Reception System API",
+        Version = "v1",
+        Description = "API for managing reception system operations",
+        Contact = new Microsoft.OpenApi.Models.OpenApiContact
+        {
+            Name = "Your Name",
+            Email = "your.email@example.com"
+        }
+    });
+});
+
+
+//Registering Repositories
+builder.Services.AddScoped<IRepository<Room>, Repository<Room>>();
+builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<IRepository<Guest>, Repository<Guest>>();
+builder.Services.AddScoped<IGuestRepository, GuestRepository>();
+builder.Services.AddScoped<IRepository<Reservation>, Repository<Reservation>>();
+builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+builder.Services.AddScoped<IRepository<User>, Repository<User>>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+
 
 var app = builder.Build();
 
@@ -19,10 +47,21 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {
-    app.UseExceptionHandler("/Error"); // Adjust if you have a dedicated error-handling controller
+    app.UseExceptionHandler(errorApp =>
+    {
+        errorApp.Run(async context =>
+        {
+            context.Response.StatusCode = 500;
+            context.Response.ContentType = "application/json";
+            var errorResponse = new { Message = "An unexpected error occurred." };
+            await context.Response.WriteAsJsonAsync(errorResponse);
+        });
+    });
 }
 
 // Middleware for serving static files (useful for SPA frontend integration)
@@ -32,15 +71,6 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-// Enable Swagger
-app.UseSwagger();
-app.UseSwaggerUI();
-
 app.MapControllers();
-
-// Optional: Remove or modify this route if not using MVC
-// app.MapControllerRoute(
-//     name: "default",
-//     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
