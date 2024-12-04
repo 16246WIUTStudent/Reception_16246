@@ -2,31 +2,34 @@
 
 namespace API_16246.Models
 {
-    public class ReceptionDbContext: DbContext
+    public class ReceptionDbContext : DbContext
     {
+        public ReceptionDbContext(DbContextOptions<ReceptionDbContext> options)
+            : base(options) { }
+
         public DbSet<User> Users { get; set; }
         public DbSet<Guest> Guests { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
 
-        public ReceptionDbContext(DbContextOptions<ReceptionDbContext> options) : base(options)
-        {
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
-            // Example of fluent API configuration:
+            // Configure Foreign Key Relationships
             modelBuilder.Entity<Reservation>()
                 .HasOne(r => r.Guest)
-                .WithMany()
+                .WithMany(g => g.Reservations)
                 .HasForeignKey(r => r.GuestId);
 
             modelBuilder.Entity<Reservation>()
                 .HasOne(r => r.Room)
-                .WithMany()
+                .WithMany(ro => ro.Reservations)
                 .HasForeignKey(r => r.RoomId);
+
+            modelBuilder.Entity<Room>()
+        .Property(r => r.PricePerNight)
+        .HasColumnType("decimal(10, 2)");
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

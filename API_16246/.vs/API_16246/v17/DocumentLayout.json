@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Migrations\\20241204134356_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_16246\\Migrations\\20241204134356_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\receptiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\receptiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|solutionrelative:api_16246\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26C2E7A7-7677-4DFE-A4C2-B01177F1E79E}|API_16246\\API_16246.csproj|c:\\users\\user\\16246\\lastlast\\reception_16246\\api_16246\\api_16246\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,69 +46,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "20241204134356_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Migrations\\20241204134356_InitialCreate.cs",
+              "RelativeDocumentMoniker": "API_16246\\Migrations\\20241204134356_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Migrations\\20241204134356_InitialCreate.cs",
+              "RelativeToolTip": "API_16246\\Migrations\\20241204134356_InitialCreate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:43:56.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\appsettings.json",
               "RelativeDocumentMoniker": "API_16246\\appsettings.json",
               "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\appsettings.json",
               "RelativeToolTip": "API_16246\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-04T12:29:51.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Program.cs",
               "RelativeDocumentMoniker": "API_16246\\Program.cs",
               "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Program.cs",
               "RelativeToolTip": "API_16246\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:26:03.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ReceptionDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\ReceptionDbContext.cs",
               "RelativeDocumentMoniker": "API_16246\\Models\\ReceptionDbContext.cs",
               "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\ReceptionDbContext.cs",
               "RelativeToolTip": "API_16246\\Models\\ReceptionDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:23:00.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "API_16246\\Models\\Reservation.cs",
               "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Reservation.cs",
               "RelativeToolTip": "API_16246\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:19:35.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Room.cs",
               "RelativeDocumentMoniker": "API_16246\\Models\\Room.cs",
               "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Room.cs",
               "RelativeToolTip": "API_16246\\Models\\Room.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:18:49.826Z",
               "EditorCaption": ""
@@ -117,14 +134,14 @@
               "RelativeDocumentMoniker": "API_16246\\Models\\Guest.cs",
               "ToolTip": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\Guest.cs",
               "RelativeToolTip": "API_16246\\Models\\Guest.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:18:13.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Models\\User.cs",
               "RelativeDocumentMoniker": "API_16246\\Models\\User.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\16246\\LastLast\\Reception_16246\\API_16246\\API_16246\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "API_16246\\Controllers\\HomeController.cs",
