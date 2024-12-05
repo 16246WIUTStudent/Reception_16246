@@ -35,7 +35,7 @@ Postman or any API testing tool (optional)
 ### Setup Instructions
 #### Clone the Repository:
 
-git clone https://github.com/your-username/reception-management-system.git
+git clone https://github.com/16246WIUTStudent/Reception_16246.git
 cd reception-management-system
 
 #### Configure the Database
@@ -52,7 +52,7 @@ dotnet ef database update
 Run the Application Start the API by running:
 
 dotnet run
-Access API Documentation Open http://localhost:5000/swagger in your browser to view and test the API documentation.
+Access API Documentation Open http://localhost:5267/swagger in your browser to view and test the API documentation.
 
 
 ### API Endpoints
