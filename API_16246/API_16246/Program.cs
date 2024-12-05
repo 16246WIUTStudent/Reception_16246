@@ -1,8 +1,11 @@
+
+//Student ID: 00016246
+
 using API_16246.Models;
 using API_16246.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using API_16246.Repositories;
+using Microsoft.EntityFrameworkCore.Storage;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,13 +14,13 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<ReceptionDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Optional: Add Swagger for API documentation
+// Swagger configuration
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
-        Title = "Reception System API",
+        Title = "API_16246 Documentation",
         Version = "v1",
         Description = "API for managing reception system operations",
         Contact = new Microsoft.OpenApi.Models.OpenApiContact
@@ -28,18 +31,22 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-
-//Registering Repositories
-builder.Services.AddScoped<IRepository<Room>, Repository<Room>>();
+// Registering repositories
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
-builder.Services.AddScoped<IRepository<Guest>, Repository<Guest>>();
 builder.Services.AddScoped<IGuestRepository, GuestRepository>();
-builder.Services.AddScoped<IRepository<Reservation>, Repository<Reservation>>();
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
-builder.Services.AddScoped<IRepository<User>, Repository<User>>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-
+// CORS configuration should be added before building the app
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigins", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000", "https://example.com")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -64,13 +71,30 @@ else
     });
 }
 
-// Middleware for serving static files (useful for SPA frontend integration)
+// Add CORS middleware
+app.UseCors("AllowSpecificOrigins");
+
+// Middleware for serving static files
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ReceptionDbContext>();
+    dbContext.Database.Migrate();
+    try
+    {
+        dbContext.Database.OpenConnection();
+        Console.WriteLine("Database connection successful!");
+        dbContext.Database.CloseConnection();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Database connection failed: {ex.Message}");
+    }
+}
 
 app.Run();

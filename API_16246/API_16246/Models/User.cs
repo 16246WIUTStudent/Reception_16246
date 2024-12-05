@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+//Student ID: 00016246
+
+using System.ComponentModel.DataAnnotations;
 
 namespace API_16246.Models
 {
@@ -10,6 +13,9 @@ namespace API_16246.Models
         [Required]
         [MaxLength(50)]
         public string UserName { get; set; }
+
+        //[Required]
+        //public string Password { get; set; }
 
         [Required]
         [MaxLength(20)]
